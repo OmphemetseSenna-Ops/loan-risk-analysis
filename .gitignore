@@ -1,0 +1,57 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+loanENV/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Data and outputs
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.zip
+*.tar
+*.gz
+*.log
+
+# Local project artifacts
+reports/
+output/
+out/
+plots/
+artifacts/
+results/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Test and coverage reports
+.coverage
+.coverage.*
+htmlcov/
+
