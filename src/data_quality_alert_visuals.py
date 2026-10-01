@@ -1,8 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+from config.config import RAW_DATA_FILE
 
 class DataQualityVisualizer:
-    def __init__(self, file_path: str):
+    def __init__(self, file_path: str = RAW_DATA_FILE):
         # Initialize with path to raw dataset.
         self.df = pd.read_excel(file_path)
 
